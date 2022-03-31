@@ -4,12 +4,7 @@ import "mind-ar/dist/mindar-image-aframe.prod.js";
 import ARViewer from "../../ar/ARViewer";
 
 const Skiff = () => {
-  return (
-    <div>
-      <ARViewer />
-      <video></video>
-    </div>
-  );
+  return <ARViewer />;
 };
 
 export default Skiff;
